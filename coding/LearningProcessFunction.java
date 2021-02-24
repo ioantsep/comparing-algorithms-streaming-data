@@ -36,7 +36,7 @@ public class LearningProcessFunction extends ProcessFunction<Example<Instance>, 
  			if (nbExampleSeen % updateSize == 0) {
  			collector.collect(classifier);
  			}
- 			if (nbExampleSeen % 100_000 == 0) {
+ 			if (nbExampleSeen % 100_000 == 0) { //change the 100_000 to 250_000 and 500_000 for 80K, 200K, 400K training sets respectively
  			
  			long endTime = System.nanoTime();
  			long time =endTime-startTime;

@@ -44,17 +44,11 @@ After that, having the results, a comparison of the **9** algorithms accuracy ta
 
 
 ## **Data Flow** ##
-- __IoT sensor simulator:__ data from the sensor, Apache Kafka's Producer
+- __RandomRBF Generator:__ generate data (10M instances) 
 
-- __Data Flow 1:__ send to Apache Kafka
+- __Data Flow 1:__ send data to Apache Flink, where the data splits to training and testing set and applied to MOA 
 
-- __Data Flow 2:__ send to Apache Flink, Apache Kafka's Consumer
-
-- __Data Flow 3:__ send to Apache Cassandra
-
-- __Data Flow 4:__ send to Elasticsearch
-
-- __Visualize__: using Kibana
+- __Results:__ print results
 
 
 ## **Coding** ##
@@ -67,11 +61,26 @@ After that, having the results, a comparison of the **9** algorithms accuracy ta
 
 
 ## **Build, Provision and Deploy the Project** ##
-1. Starting Zookeeper(Kafka) in terminal 1: 
+
+For every different algorithm:
+
+1. Starting maven in terminal 1: 
 	```
-	cd /opt/kafka
-	bin/zookeeper-server-start.sh config/zookeeper.properties
+	cd /opt/maven-projects/
+	mvn exec:java -Dexec.mainClass="moa.flink.traintest.TrainTestRun"
 	```
+	![running_algor](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/images/running_algor.png)	
+	
+## **Results** ##
+
+
+
+
+
+
+
+
+
 
 
 ## **Useful Links** ##

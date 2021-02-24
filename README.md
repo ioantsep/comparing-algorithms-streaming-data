@@ -5,7 +5,7 @@ For this purpose a real-time data pipeline was created, that:
 
 - [x] creates data source with a RandomRBF generator
 - [x] uses the Apache Flink to split data to 80% training and 20% testing sets 
-- [x] attaches the Massive Online Analysis(MOA) open source framework for data stream mining and applying one by one classification algorithms, 
+- [x] attaches the Massive Online Analysis(MOA) open source framework for applying one by one the classification algorithms, 
 - [x] gives the results of accuracy for every applied algorithm.
 
 After that a comparisson of the 9 algorithms accuracy take place.  

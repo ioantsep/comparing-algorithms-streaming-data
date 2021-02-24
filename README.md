@@ -1,14 +1,16 @@
 # Comparing algorithms on streaming data
 The goal of this project is to evaluate the accuracy of 9 classification algorithms that are applied on streaming data. 
 
-For this purpose a real-time data pipeline was created, that:
+- First, a real-time data pipeline was created, that:
 
 - [x] creates data source with a RandomRBF generator
 - [x] uses the Apache Flink to split data to 80% training and 20% testing sets 
 - [x] attaches the Massive Online Analysis(MOA) open source framework for applying one by one the classification algorithms, 
 - [x] gives the results of accuracy for every applied algorithm.
 
-After that a comparisson of the 9 algorithms accuracy take place.  
+- Secondly, kaving the results, a comparison of the 9 algorithms accuracy take place:
+- For every algorithm we take the accuracy for 80K, 200K and 400K training sets, and we come to a conclusion that the OzaBag algorithm is the winner.
+
 
 ## **Tools - Frameworks** ##
 - Virtual Machine: VirtualBox v5.2.26, 

@@ -32,7 +32,7 @@ After that, having the results, a comparison of the **9** algorithms accuracy ta
 
 
 ## Dataset Information ##
-- The RandomRBF Generator generates a random radial basis function data in form of instance, which have 10 attributes and 2 classes(class1, class2). The total number of instaneces is 10M per algorithm.
+- The RandomRBF Generator generates a random radial basis function data in form of instance, which have 10 numeric attributes and 2 classes(class1, class2). The total number of instaneces is 10M per algorithm.
 
 ![RBF_data](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/images/RBF_data.png)
 
@@ -58,11 +58,12 @@ After that, having the results, a comparison of the **9** algorithms accuracy ta
 
 
 ## **Coding** ##
-- TrainTestRun.java code: [TrainTestRun.java](https://github.com/ioantsep/realtime-pipeline-kafka-flink/blob/main/coding/sendtosink.java)
-- RRBFSource.java code: [RRBFSource.java](https://github.com/ioantsep/realtime-pipeline-kafka-flink/blob/main/coding/DataGenerator.java)
-- LearningProcessFunction.java
-- PerformanceFunction.java 
-- ClassifyAndUpdateClassifierFunction.java
+- TrainTestRun.java code: [TrainTestRun.java](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/coding/TrainTestRun.java)
+- RRBFSource.java code: [RRBFSource.java](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/coding/RRBFSource.java)
+- LearningProcessFunction.java: [LearningProcessFunction.java](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/coding/LearningProcessFunction.java)
+- PerformanceFunction.java code: [PerformanceFunction.java](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/coding/PerformanceFunction.java)
+- ClassifyAndUpdateClassifierFunction.java code: [ClassifyAndUpdateClassifierFunction.java](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/coding/ClassifyAndUpdateClassifierFunction.java)
+- RandomSamplingSelector.java: [RandomSamplingSelector.java](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/coding/RandomSamplingSelector.java)
 
 
 ## **Build, Provision and Deploy the Project** ##

@@ -34,12 +34,12 @@ After that, having the results, a comparison of the **9** algorithms accuracy ta
 ## Dataset Information ##
 - The RandomRBF Generator generates a random radial basis function data in form of instance, which have 10 attributes and 2 classes(class1, class2). The total number of instaneces is 10M per algorithm.
 
-![IoT_simulation](https://github.com/ioantsep/realtime-pipeline-kafka-flink/blob/main/images/IoT_simul.png)
+![RBF_data](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/images/RBF_data.png)
 
 
 ## Pipeline Architecture ##
 
-![architect](https://github.com/ioantsep/realtime-pipeline-kafka-flink/blob/main/images/architect_system.png)
+![pipeline](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/images/pipeline3.png)
 
 
 

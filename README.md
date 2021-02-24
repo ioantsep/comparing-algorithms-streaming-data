@@ -44,7 +44,7 @@ After that, having the results, a comparison of the **9** algorithms accuracy ta
 
 
 ## **Data Flow** ##
-- __RandomRBF Generator:__ generate data (10M instances) 
+- __RandomRBF generator:__ generate data (10M instances) 
 
 - __Data Flow 1:__ send data to Apache Flink, where the data splits to training and testing set and applied to MOA 
 

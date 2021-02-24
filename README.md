@@ -72,7 +72,10 @@ For every different algorithm:
 	![running_algor](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/images/running_algor.png)	
 	
 ## **Results** ##
-For every algorithm we take the accuracy for _80K, 200K and 400K_ training sets, and we come to a conclusion that the **OzaBag** algorithm is the winner.
+For every algorithm we take the accuracy for _80K, 200K and 400K_ training sets, and we come to a conclusion that:
+- the algorithm **OzaBagAdwin** gives the best accuracy for the _80K training sets (the **OzaBag** accuracy is very close to the winner)
+- the algorithm **OzaBag** gives the best accuracy for the _200K training sets (the **OzaBagAdwin** accuracy is very close to the winner)
+- the algorithm **OzaBag** gives the best accuracy for the _400K training sets (the **OzaBagAdwin** accuracy is very close to the winner)
 
 ![80K](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/images/80%CE%9A.png)
 ![200K](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/images/200%CE%9A.png)

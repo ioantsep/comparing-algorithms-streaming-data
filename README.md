@@ -28,7 +28,7 @@ After that a comparisson of the 9 algorithms accuracy take place.
 - HoeffdingAdaptive Tree, 
 - OzaBag,  
 - OzaBoost, 
-- OzaBagADWIN, 
+- OzaBagADWIN
 
 
 ## Dataset Information ##

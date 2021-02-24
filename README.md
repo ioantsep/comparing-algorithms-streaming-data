@@ -32,7 +32,7 @@ After that, having the results, a comparison of the **9** algorithms accuracy ta
 
 
 ## Dataset Information ##
-- The RandomRBF Generator generates a random radial basis function data in form of instance, which have 10 attributes and 2 classes(class1, class2). The total number of instaneces is 10M per algorithm.
+- The RandomRBF Generator generates a random radial basis function data in form of instance, which have 10 numeric attributes and 2 classes(class1, class2). The total number of instaneces is 10M per algorithm.
 
 ![RBF_data](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/images/RBF_data.png)
 

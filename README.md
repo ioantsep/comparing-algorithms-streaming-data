@@ -7,7 +7,7 @@ First, a real-time data pipeline was created, that:
 - [x] attaches the Massive Online Analysis(MOA) open source framework for applying one by one the classification algorithms, 
 - [x] gives the results of accuracy for every applied algorithm.
 
-After that, having the results, a comparison of the **9** algorithms accuracy take place. For every algorithm we take the accuracy for _80K, 200K and 400K_ training sets, and we come to a conclusion that the **OzaBag** algorithm is the winner.
+Having the results, a comparison of the 9 algorithms accuracy take place. 
 
 
 ## **Tools - Frameworks** ##
@@ -72,9 +72,11 @@ For every different algorithm:
 	![running_algor](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/images/running_algor.png)	
 	
 ## **Results** ##
+For every algorithm we take the accuracy for _80K, 200K and 400K_ training sets, and we come to a conclusion that the **OzaBag** algorithm is the winner.
 
-
-
+![80K](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/images/80%CE%9A.png)
+![200K](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/images/200%CE%9A.png)
+![400K](https://github.com/ioantsep/comparing-algorithms-streaming-data/blob/main/images/400%CE%9A.png)
 
 
 

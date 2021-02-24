@@ -7,7 +7,7 @@ First, a real-time data pipeline was created, that:
 - [x] attaches the Massive Online Analysis(MOA) open source framework for applying one by one the classification algorithms, 
 - [x] gives the results of accuracy for every applied algorithm.
 
-Secondly, having the results, a comparison of the 9 algorithms accuracy take place. For every algorithm we take the accuracy for _80K, 200K and 400K_ training sets, and we come to a conclusion that the _OzaBag_ algorithm is the winner.
+After that, having the results, a comparison of the **9** algorithms accuracy take place. For every algorithm we take the accuracy for _80K, 200K and 400K_ training sets, and we come to a conclusion that the **OzaBag** algorithm is the winner.
 
 
 ## **Tools - Frameworks** ##
